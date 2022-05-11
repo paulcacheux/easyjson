@@ -3,6 +3,7 @@
 
 package tests
 
+//easyjson:json
 type GenericsBaseTemplate[T any] struct {
 	A T `json:"a"`
 }
