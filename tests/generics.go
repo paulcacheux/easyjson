@@ -13,7 +13,7 @@ type GenericsSpecific struct {
 }
 
 var genericsValue GenericsSpecific = GenericsSpecific{
-	B: GenericsBaseTemplate{
+	B: GenericsBaseTemplate[int]{
 		A: 12,
 	},
 }
